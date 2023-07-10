@@ -1,18 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import Routes from "./routers/routes"
+import "./App.css";
+import {MyRoutes} from "./routers/routes";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <header>
-        <h1 className='title'>Movies 🍿</h1>
+        <h1 className="title">Movies 🍿</h1>
       </header>
-      <Routes />
+      <MyRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

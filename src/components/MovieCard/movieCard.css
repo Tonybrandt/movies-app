@@ -1,0 +1,25 @@
+﻿.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.title-card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.card:hover {
+    opacity: 0.7;
+    transform: translateY(-30px);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img-card {
+    border-radius: 10px;
+}
