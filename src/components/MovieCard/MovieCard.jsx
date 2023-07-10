@@ -1,12 +1,12 @@
-﻿import React, { useEffect, useState } from "react";
+﻿import React from "react";
 import { Link } from "react-router-dom";
 import "./movieCard.css";
 export const MovieCard = ({ movie }) => {
-  const imageUrl = "https://image.tmdb.org/t/p/w500/"+movie.poster_path;
+  const imageUrl = "https://image.tmdb.org/t/p/w500" + movie.poster_path;
 
   return (
     <li className="card">
-      <Link to={'/movieDetail/'+movie.id}>
+      <Link className="link" to={"/movies/" + movie.id}>
         <img
           className="img-card"
           src={imageUrl}

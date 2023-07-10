@@ -8,7 +8,7 @@ export const MyRoutes = () => {
     <Router>
         <Routes>
             <Route exact path='/' element={<LandingPage/>} />
-            <Route path='/movieDetail/:movieId' element={<MovieDetails/>} />
+            <Route path='/movies/:movieId' element={<MovieDetails/>} />
         </Routes>
     </Router>
   )

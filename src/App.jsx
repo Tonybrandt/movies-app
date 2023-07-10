@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <header>
-        <h1 className="title">Movies 🍿</h1>
+        <h1 className="title-app">Movies 🍿</h1>
       </header>
       <MyRoutes />
     </>

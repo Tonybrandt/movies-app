@@ -5,12 +5,17 @@
     transition: 0.5s;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .title-card {
     display: flex;
     flex-wrap: wrap;
     max-width: 300px;
     font-size: 1.5em;
     text-align: center;
+    color: aliceblue;
 }
 
 .card:hover {

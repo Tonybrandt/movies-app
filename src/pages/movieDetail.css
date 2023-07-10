@@ -1,0 +1,53 @@
+﻿.detailsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.img-card {
+    max-height: 450px;
+    object-fit: contain;
+}
+
+.container__card {
+    display: flex;
+    max-height: 500px;
+    max-width: 1200px;
+}
+
+.texts {
+    padding: 0 30px;
+    text-align: left;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.copy {
+    font-size: 1.1em;
+}
+
+.watch {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 1em;
+}
+
+.emoji {
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 840px){
+    .container__card {
+        flex-direction: column;
+    }
+
+    .title {
+        
+    }
+    
+}
